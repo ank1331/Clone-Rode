@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                screens: {
+                    sm: "480px",
+                    md: "780px",    
+                    lg: "1100px",
+                    xl: "1500px"
+
+                },
+                extend: {
+                    colors: {
+                        myblue: 'rgb(173, 153, 112)',
+                        myred: "#48494A",
+                        mygreen: "#02B290"
+                    }
+                }
+            }
+        }
+    </script>
+    <title>RODE Microphones</title>
+</head>
+
+<body>
+    <nav class="container mx-auto">
+        <div class="test flex items-center justify-between bg-white">   
+            <div class="location flex items-center space-between">
+                <img src="./Images/1.jpg" alt="" class="h-10">
+                <li class="list-none pl-1">EN</li>
+                <img src="./Images/Down.PNG" alt="" class="h-2 w-3 pl-1">
+                <img src="./Images/RODE-logo.PNG" alt="" class=" md:hidden h-4 md:pr-2  ml-40 self-center">
+            </div>
+
+            <div class="Login">
+                <img src="./Images/Login-icon.PNG" alt="" class="h-4 pr-2">
+            </div>
+        </div>
+        <hr class="mt-2">
+    </nav>
+    <div class="hidden md:menu md:flex-row md:flex md:place-content-around md:mt-10 md:mx-auto">
+        <img src="./Images/RODE-logo.PNG" alt="" class="h-6">
+        <div class="menu flex place-content-evenly mb-10">
+            <ul class="flex">
+                <li class="mr-6">PRODUCTS</li>
+                <li class="mr-6">USER GUIDES</li>
+                <li class="mr-6">SOLUTIONS</li>
+                <li class="mr-6">APPAREL</li>
+                <li class="mr-6">SUPPORT</li>
+            </ul>
+        </div>
+        <img src="./Images/search-icon-png-9985.png" alt="" class="h-6">
+    </div>
+    <div class="sec1 bg-gradient-to-r from-gray-500 to-black flex flex-col md:flex-row">
+        <img src="./Images/rode-rodecaster-pro-II-home-page-800x700-rgb.jpg" alt="" class="h-30 md:w-1/2 ">
+        <div class="text self-center mr-10 ml-10">
+            <img src="./Images/Wireless-G0.PNG" alt="">
+            <h3 class="text-white text-center mt-5 text-[25px]">The Revolution Is Here</h3>
+            <p class="text-gray-500 text-center mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
+                labore repudiandae. Provident autem earum adipisci sed veniam sapiente vitae vero ipsam quisquam dolorum
+                similique aperiam modi corporis, voluptatem, atque velit.</p>
+            <div class="text1 flex justify-center space-x-10 mt-10">
+                <h4 class="text-myblue text-[20px] font-bold">Learn More</h4>
+                <button class="bg-myblue text-white w-90 px-7 rounded-2xl font-bold text-[20px]">BUY NOW</button>
+            </div>
+        </div>
+    </div>
+    <div
+        class="sec2 bg-[url('./Images/rode-nth100-lifestyle-insitu-female-looking-down-grey-1920x700-rgb.jpg')] flex h-[500px] w-full bg-cover bg-center">
+        <div class="text border-1 border-black md:w-1/2">
+            <img src="./Images/NT-USB_Mini_PL_P_01_web-top-padding-01.svg" alt="" class="h-20 w-100 mt-20 ml-5">
+            <h3 class="text-black justify-center text-center mt-5 text-[25px]">Your Search For The Perfect Headphones Is
+                Over</h3>
+            <p class="text-gray-500 text-center ml-12  mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Vero, labore repudiandae. Provident autem earum adipisci sed veniam sapiente vitae vero ipsam quisquam
+                dolorum similique aperiam modi corporis, voluptatem, atque velit.</p>
+            <div class="text1 flex justify-center align-center space-x-10 mt-10">
+                <h4 class="text-myblue align-center text-[20px] font-bold">Learn More</h4>
+                <button class="bg-myblue text-white w-90 px-7 rounded-2xl font-bold text-[20px]">BUY NOW</button>
+            </div>
+        </div>
+    </div>
+    <!-- ****************** -->
+    <div class="sec2 bg-[url('./Images/3.jpg')] h-[500px] w-full bg-cover bg-center flex flex-col items-end">
+        <div class="text md:w-1/2 flex flex-col">
+            <img src="./Images/NT-USB_Mini_PL_P_01_web-top-padding-01.svg" alt=""
+                class="h-20 items-center align-center mt-20">
+            <h3 class="text-black  mt-5 text-[25px] justify-center text-center items-center align-center">Studio-Quality
+                Recording, Made Simple</h3>
+            <p class="text-gray-500 text-center justify-center items-center text-[10px] mt-5">Lorem ipsum dolor sit amet
+                consectetur, adipisicing elit. Distinctio, nam.</p>
+            <div class="text1 flex space-x-10 justify-center items-center  mt-10">
+                <h4 class="text-myblue text-[20px] font-bold">Learn More</h4>
+                <button class="bg-myblue text-white w-90 px-7 rounded-2xl font-bold text-[20px]">BUY NOW</button>
+            </div>
+        </div>
+    </div>
+    <!-- **************************** -->
+    <div class="sec2 bg-[url('./Images/mike.jpg')] flex h-[500px] w-full bg-cover bg-center">
+        <div class="text md:w-1/2">
+            <img src="./Images/PODMIC.PNG" alt="" class="h-10 w-100 mt-20 ml-[170px]">
+            <h3 class="text-white justify-center text-center mt-5 text-[25px]">Your Search For The Perfect Headphones Is
+                Over</h3>
+            <p class="text-gray-300 text-center ml-12  mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Vero, labore repudiandae. Provident autem earum adipisci sed veniam sapiente vitae vero ipsam quisquam
+                dolorum similique aperiam modi corporis, voluptatem, atque velit.</p>
+            <div class="text1 flex justify-center align-center space-x-10 mt-10">
+                <h4 class="text-myblue align-center text-[20px] font-bold">Learn More</h4>
+                <button class="bg-myblue text-white w-90 px-7 rounded-2xl font-bold text-[20px]">BUY NOW</button>
+            </div>
+        </div>
+    </div>
+    <!-- ********************** -->
+    <div
+        class="sec2 bg-[url('./Images/WIGOII-WEBHEADER-02.jpg')] h-[500px] w-full bg-cover bg-center flex flex-col items-end">
+        <div class="text md:w-1/2 flex flex-col">
+            <img src="./Images/Wireless-G0.PNG" alt="" class="h-10 w-80 self-center  items-center align-center mt-20">
+            <h3 class="text-white  mt-5 text-[25px] selft-center justify-center text-center items-center align-center">
+                Studio-Quality Recording, Made Simple</h3>
+            <p class="text-myred w-1/2 self-center text-center justify-center items-center text-[10px] mt-5">Lorem ipsum
+                dolor sit amet, consectetur adipisicing elit. Ex earum debitis eaque tenetur architecto quisquam
+                cupiditate a, exercitationem repudiandae rerum maxime quos molestias amet quod voluptas voluptates
+                explicabo est tempore.</p>
+            <div class="text1 flex space-x-10 justify-center items-center self-center  mt-10">
+                <h4 class="text-myblue text-[20px] font-bold">Learn More</h4>
+                <button class="bg-myblue text-white w-90 px-7 rounded-2xl font-bold text-[20px]">BUY NOW</button>
+            </div>
+        </div>
+    </div>
+    <!-- ***************************** -->
+    <div class="sec2 bg-[url('./Images/Mike-complete.jpg')] flex h-[500px] w-full bg-cover bg-center">
+        <div class="text md:w-1/2">
+            <img src="./Images/NT-USB_Mini_PL_P_01_web-top-padding-01.svg" alt="" class="h-10 w-100 mt-20 ml-[170px]">
+            <h3 class="text-white justify-center text-center mt-5 text-[25px]">Compact Sound, Incredibly Powerful</h3>
+            <p class="text-gray-300 text-center ml-12  mt-5">The NT-USB Mini brings pristine studio sound to a compact
+                USB microphone, and with RØDE Connect unlocking more power, more features and more control, it’s the
+                perfect recording solution for podcasters, gamers and streamers.</p>
+            <div class="text1 flex justify-center align-center space-x-10 mt-10">
+                <h4 class="text-myblue align-center text-[20px] font-bold">Learn More</h4>
+                <button class="bg-myblue text-white w-90 px-7 rounded-2xl font-bold text-[20px]">BUY NOW</button>
+            </div>
+        </div>
+    </div>
+    <div class=" flex flex-col justify-center items-center mt-[40px]">
+        <h2 class="text-3xl text-gray-500">Explore The RODE Range</h2>
+        <div
+            class=" text-white flex font-bold text-6xl mt-[40px] bg-[url('./Images/WIGOII-WEBHEADER-02.jpg')] h-[500px] w-full bg-cover bg-center w-3/4 text-center h-[200px] self-center align-center justify-center items-center">
+            MICROPHONES</div>
+        <div
+            class=" text-white flex font-bold text-6xl mt-[40px] bg-[url('./Images/amris-mendoza-CSkVTNqgnGE-unsplash.jpg')] h-[500px] w-full bg-cover bg-center w-3/4 text-center h-[200px] self-center align-center justify-center items-center">
+            INTERFACES & MIXER</div>
+        <div
+            class=" text-white flex font-bold text-6xl mt-[40px] bg-[url('./Images/ryan-ancill-X7VuIxDjPXo-unsplash.jpg')] h-[500px] w-full bg-cover bg-center w-3/4 text-center h-[200px] self-center align-center justify-center items-center">
+            SOFTWARE</div>
+        <div
+            class=" text-white flex font-bold text-6xl mt-[40px] bg-[url('./Images/natali-hordiiuk-r7CExPtIIyI-unsplash.jpg')] h-[500px] w-full bg-cover bg-center w-3/4 text-center h-[200px] self-center align-center justify-center items-center">
+            ACCESSORIES</div>
+    </div>
+    <h2 class="mt-10 mb-5 text-3xl text-gray-500 text-center">Latest from RODE Blog</h2>
+    <div class="flex md:flex-wrap flex-wrap place-content-evenly">
+        <div class="flex-col md:w-1/2 flex md:flex-col md:align-center">
+            <h3 class="w-3/4 text-2xl text-center self-center mt-20">The Difference Between Large-Diaphragm and
+                Small-Diaphragm Condenser Microphones</h3>
+            <img src="./Images/thumbnail6.jpeg" alt="" class="w-[500px] self-center mb-10">
+            <h4 class="md:w-3/4 text-md text-gray-500 mt-[10px] mb-10 text-center self-center">We explore the difference
+                between large- and small-diaphragm condenser microphones, and what each is
+                best used for.</h4>
+            <button
+                class=" text-center self-center bg-myblue text-white mb-5 w-30 h-8 px-5 rounded-2xl font-bold text-[15px]">LEARN
+                MORE</button>
+        </div>
+        <div class="md:w-1/2 flex flex-col md:flex-col align-center">
+            <h3 class="md:w-3/4 text-2xl text-center self-center mt-20">The Difference Between Large-Diaphragm and
+                Small-Diaphragm Condenser Microphones</h3>
+            <img src="./Images/thumbnail.jpg" alt="" class="w-[500px] self-center mb-10">
+            <h4 class="w-3/4 text-md text-gray-500 mt-[10px] mb-5 text-center self-center">We explore the difference
+                between large- and small-diaphragm condenser microphones, and what each is
+                best used for.</h4>
+            <button
+                class=" text-center self-center bg-myblue text-white mb-10 w-30 h-8 px-5 rounded-2xl font-bold text-[15px]">LEARN
+                MORE</button>
+        </div>
+        <div class="w-1/2 flex flex-col align-center">
+            <h3 class="w-3/4 text-2xl text-center self-center mt-20">The Difference Between Large-Diaphragm and
+                Small-Diaphragm Condenser Microphones</h3>
+            <img src="./Images/rode-rodecaster-pro-II-on-black-front-580x509.jpg" alt=""
+                class="w-[500px] self-center mb-10">
+            <h4 class="w-3/4 text-md text-gray-500 mt-[10px] mb-10 text-center self-center">We explore the difference
+                between large- and small-diaphragm condenser microphones, and what each is
+                best used for.</h4>
+            <button
+                class=" text-center self-center bg-myblue text-white mb-10 w-30 h-8 px-5 rounded-2xl font-bold text-[15px]">LEARN
+                MORE</button>
+        </div>
+        <div class="w-1/2 flex flex-col align-center ">
+            <h3 class="w-3/4 text-2xl text-center self-center mt-20">The Difference Between Large-Diaphragm and
+                Small-Diaphragm Condenser Microphones</h3>
+            <img src="./Images/rode-rodecaster-pro-II-on-black-front-on-580x509-rgb.jpg" alt=""
+                class="w-[500px] self-center mb-10">
+            <h4 class="w-3/4 text-md text-gray-500 mt-[10px] mb-10 text-center self-center">We explore the difference
+                between large- and small-diaphragm condenser microphones, and what each is
+                best used for.</h4>
+            <button
+                class=" text-center self-center bg-myblue text-white mb-10 w-30 h-8 px-5 rounded-2xl font-bold text-[15px]">LEARN
+                MORE</button>
+        </div>
+        <div class=" hidden md:container md:flex md:mt-20">
+            <div class="flex grow justify-center align-center items-center  flex:row">
+                <div class="place-self-start mt-2 flex flex-col algin-center items-center">
+                    <img src="./Images/RODE-logo.PNG" alt="" class="h-10">
+                    <div class="container flex content-center">
+                        <div class="line rounded-full bg-myblue ml-[60px] w-[25px] mt-2 text-transparent">test</div>
+                    </div>
+                </div>
+                <ul class="mr-12 ml-10 place-self-start">
+                    <li class="first-of-type:font-bold mb-1">Products</li>
+                    <li class="mb-1">Microphones</li>
+                    <li class="mb-1">Headphones</li>
+                    <li class="mb-1">Interfaces and Mixers</li>
+                    <li class="mb-1">Accessories</li>
+                    <li class="mb-1">Software</li>
+                    <li class="mb-1">Apparel</li>
+                </ul>
+                <ul class="mr-12 place-self-start">
+                    <li class="first-of-type:font-bold mb-1">Support</li>
+                    <li class="mb-1">Contact RØDE</li>
+                    <li class="mb-1">Service Centre</li>
+                    <li class="mb-1">Warranty</li>
+                    <li class="mb-1">Where to Buy</li>
+                </ul>
+                <ul class="mr-10">
+                    <li class="first-of-type:font-bold mb-1">Company</li>
+                    <li class="mb-1">About RØDE</li>
+                    <li class="mb-1">Headphones</li>
+                    <li class="mb-1">News and Info</li>
+                    <li class="mb-1">Job Opportunities</li>
+                    <li class="font-bold mb-1">Account</li>
+                    <li class="mb-1">Manage your Account</li>
+                    <li class="mb-1">Create Account</li>
+                </ul>
+            </div>
+            <div class="w-1/3 place-self-start text-right">
+                <h2 class="text-3xl text-right mr-2 md:mr-0">Subscribe to our latest news and offers</h2>
+                <button class=" text-center mt-5 place-self-end bg-myblue text-white mb-10 w-30 h-8 px-5 rounded-2xl font-bold text-[15px]">Sign Up</button>
+            </div>
+        </div>
+        <hr>
+        <div class="hidden md:container md:flex md:place-content-evenly md:items-center md:mt-10 md:mb-[30px]">
+            <h3 class="text-sm text-gray-400 place-self-start">© 2022 RØDE All Rights Reserved.</h3>
+            <h3 class="text-sm text-gray-400">Privacy Policy | Terms & Conditions</h3>
+            <div class="flex place-content-evenly ">
+                <img src="./Images/tw.PNG" alt=""  class="h-7">
+                <img src="./Images/fb.PNG" alt=""  class="h-7 ml-5">
+                <img src="./Images/ins.PNG" alt="" class="h-7 ml-5">
+                <img src="./Images/you.PNG" alt="" class="h-7 ml-5">
+                <img src="./Images/tik.PNG" alt="" class="h-7 ml-5">
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
